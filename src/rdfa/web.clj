@@ -2,7 +2,6 @@
   (:use compojure.core
         [ring.adapter.jetty :only [run-jetty]])
   (:require [clojure.string :as string]
-            [clojure.java.io :as io]
             [ring.util.response :as resp]
             [compojure.route :as route]
             [compojure.handler :as handler])

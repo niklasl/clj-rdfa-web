@@ -1,5 +1,6 @@
 (ns rdfa.dev
-  (:require [ring.server.options :as options]
+  (:require [clojure.java.io :as io]
+            [ring.server.options :as options]
             [ring.middleware.reload :as reload]
             [rdfa.web :as web]))
 
